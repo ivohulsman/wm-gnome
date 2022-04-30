@@ -1,4 +1,4 @@
-# i3wm + GNOME [![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)]()
+# i3wm / LeftWM + GNOME [![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)]()
 
 ---
 ## ⚠️ Are you looking for your first contribution to Open Source?
@@ -20,15 +20,16 @@ If this sounds good to you then open an issue and on the title put: "I want to h
   <img src="https://i.imgur.com/Ia1pJUK.png" width="45%" height="45%">
 </p>
 
-Allows you to use i3wm with GNOME 3 Session infrastructure.
+Allows you to use i3wm or LeftWM with GNOME 3 Session infrastructure.
 
 ## What do I get by installing it?
 - A way to manage GNOME things such as your cursor/icon, (GTK) themes and online accounts.
-- A friendly bridge that keeps your stuff from GNOME in an i3 environment.
-- Useful for people that are getting started with i3wm, but don't want to uninstall their current desktop environment.
+- A friendly bridge that keeps your stuff from GNOME in an i3 or LeftWM environment.
+- Useful for people that are getting started with i3wm or LeftWM, but don't want to uninstall their current desktop environment.
 
 ## Requirements
 * i3-wm/i3-gaps
+* leftwm
 * GNOME (40.x)
 * GDM (optional, but useful)
 
@@ -40,6 +41,8 @@ Using `make`:
 * `git clone https://github.com/i3-gnome/i3-gnome.git`
 * `cd i3-gnome`
 * `sudo make install`
+
+**Note that this package will currently install both i3wm and LeftWM as dependencies**
 
 ## Contributing
 * [Guidelines](https://github.com/i3-gnome/i3-gnome/wiki/Contributing)
