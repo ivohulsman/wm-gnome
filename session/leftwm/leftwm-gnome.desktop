@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=leftwm-gnome
+NoDisplay=true
+Comment=A tiling window manager for Adventurers
+Exec=leftwm-gnome
+X-GNOME-WMName=leftwm-gnome
+X-GNOME-Autostart-Phase=WindowManager
+X-GNOME-Provides=windowmanager
+X-GNOME-Autostart-Notify=false
