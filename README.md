@@ -35,14 +35,22 @@ Allows you to use i3wm or LeftWM with GNOME 3 Session infrastructure.
 
 ## Packages
 [![i3-gnome](https://img.shields.io/aur/version/i3-gnome.svg?label=i3-gnome)](https://aur.archlinux.org/packages/i3-gnome/)
+**Note that this package will currently install both i3wm and LeftWM as dependencies**
 
 ## Installation using make
 Using `make`:
 * `git clone https://github.com/i3-gnome/i3-gnome.git`
 * `cd i3-gnome`
+
+### i3wm
+* `sudo make i3wm`
+
+### LeftWM
+* `sudo make leftwm`
+
+### All targets
 * `sudo make install`
 
-**Note that this package will currently install both i3wm and LeftWM as dependencies**
 
 ## Contributing
 * [Guidelines](https://github.com/i3-gnome/i3-gnome/wiki/Contributing)
